@@ -1,3 +1,43 @@
+@font-face {
+    font-family: 'Highest';
+    src: url(/fonts/Highest\ PERSONAL\ USE\ ONLY!.ttf);
+}
+
+@font-face {
+    font-family: 'Jordan';
+    src: url(/fonts/KGTeacherJordan.ttf);
+}
+
+@font-face {
+    font-family: 'Beatbox';
+    src: url(/fonts/beatbox_.ttf);
+}
+
+@font-face {
+    font-family: 'Beatib';
+    src: url(/fonts/beatib__.ttf);
+}
+
+@font-face {
+    font-family: 'Hardbeat';
+    src: url(/fonts/Hardbeat.ttf);
+}
+
+@font-face {
+    font-family: 'TrapMusic';
+    src: url(/fonts/TrapMusic.ttf);
+}
+
+@font-face {
+    font-family: 'WorshipMusic';
+    src: url(/fonts/Worship\ Music.ttf);
+}
+
+@font-face {
+    font-family: 'Showpop';
+    src: url(/fonts/Showpop.ttf);
+}
+    
 body {
     background-color: rgb(0, 0, 30);
     margin: 0;

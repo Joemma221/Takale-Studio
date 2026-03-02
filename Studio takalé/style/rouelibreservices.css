@@ -1,0 +1,152 @@
+body {
+    background-color: rgb(0, 0, 30);
+    margin: 0;
+}
+
+#haut{
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    padding: 1%;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+#logo{
+    width: 5%;
+    height: 15%;
+    border-radius: 50%;
+}
+
+#nav .a{
+    text-decoration: none;
+        color: rgb(0, 0, 30);
+        font-family: 'Showpop';
+        font-size: 20px;
+}
+
+#nav .a:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(0, 0, 30);
+    text-decoration-style:solid;
+}
+
+.actual {
+    background-color: rgb(0, 0, 30);
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: 'Showpop';
+    font-size: 20px;
+    padding: 10px;
+     font-weight: normal;
+}
+
+li{
+    list-style: none;
+    font-family: 'Showpop';
+    text-wrap: unset;
+    font-weight: bold;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    background-color: whitesmoke;
+    margin-right: 5%;
+    gap: 20px;
+}
+
+h1{
+    text-align: center;
+    color: whitesmoke;
+    padding: 1%;
+    font-family: 'HIGHEST';
+    font-size: 100px;
+    margin-top: 10%;
+}
+
+#milieu{
+    color: whitesmoke;
+    padding: 1%;
+     margin-top: 1%;
+     margin-bottom: 1%;
+}
+
+h2{
+    text-align: left;
+    color: whitesmoke;
+    font-family: 'HIGHEST';
+    font-size: 50px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    }
+
+div p{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 15px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+     margin-left: 10%;
+     margin-right: 10%;
+     font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#milieu img{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 60%;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.container:hover img{
+    opacity: 25%;
+}
+
+.container {
+    position: relative;
+}
+
+.text{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    font-size: 20px;
+    opacity: 0;
+}
+
+.container:hover .text {
+    color: white;
+    opacity: 100%;
+}
+
+h3{
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'SHOWPOP';
+    font-size: 20px;
+    margin-top: 5%;
+    }
+
+    img:hover {
+    transform: scale(1.05);
+    opacity: 0.8;
+}
+
+h3:hover {
+    transform: scale(1.05);
+    opacity: 0.8;
+}

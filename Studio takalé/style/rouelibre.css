@@ -1,0 +1,193 @@
+@font-face {
+    font-family: 'Highest';
+    src: url(/fonts/Highest\ PERSONAL\ USE\ ONLY!.ttf);
+}
+
+@font-face {
+    font-family: 'Jordan';
+    src: url(/fonts/KGTeacherJordan.ttf);
+}
+
+@font-face {
+    font-family: 'Beatbox';
+    src: url(/fonts/beatbox_.ttf);
+}
+
+@font-face {
+    font-family: 'Beatib';
+    src: url(/fonts/beatib__.ttf);
+}
+
+@font-face {
+    font-family: 'Hardbeat';
+    src: url(/fonts/Hardbeat.ttf);
+}
+
+@font-face {
+    font-family: 'TrapMusic';
+    src: url(/fonts/TrapMusic.ttf);
+}
+
+@font-face {
+    font-family: 'WorshipMusic';
+    src: url(/fonts/Worship\ Music.ttf);
+}
+
+@font-face {
+    font-family: 'Showpop';
+    src: url(/fonts/Showpop.ttf);
+
+}
+body{
+    margin: 0;
+    background-color: rgb(0, 0, 30);
+}
+
+#logo{
+    width: 5%;
+    height: 15%;
+    border-radius: 50%;
+}
+
+#studio{
+    width: 20%;
+    height: 1%;
+    margin-left: 10%;
+}
+
+#haut{
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    padding: 1%;
+}
+
+#milieu {
+    display: flex;
+    justify-content: space-around;
+    background-color: whitesmoke;
+    padding: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 1px solid black;
+}
+
+.takale{
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+}
+
+#description{
+   align-items: center;
+    text-align: center;
+    font-family: 'Hardbeat';
+    font-size: 30px;
+    animation: changeFont 1s linear infinite;
+}
+
+@keyframes changeFont {
+  0% { font-family: 'Arial', sans-serif; }
+  33% { font-family:'Times New Roman', Times, serif;}
+  66% { font-family: 'Georgia', serif; }
+  100% { font-family: 'Arial', sans-serif; }
+}
+
+#image{
+    display: flex;
+    justify-content: space-around;
+    background-color: whitesmoke;
+    padding: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 1px solid black;
+}
+
+img{
+    width: 20%;
+    height: 5%;
+    border: 1px solid black;
+}
+
+img:hover {
+    transform: scale(1.05);
+    opacity: 0.8;
+}
+
+.a{
+    text-decoration: none;
+    color: rgb(0, 0, 30);
+    font-size: 20px;
+    font-family: 'Showpop';
+}
+
+.a:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(0, 0, 30);
+    text-decoration-style:solid;
+}
+
+.actual {
+    background-color: rgb(0, 0, 30);
+    padding: 10px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: 'Showpop';
+    font-weight: normal;
+}
+
+h1{
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 1%;
+    margin-left: 40%;
+    margin-right: 40%;
+    border-radius: 10%;
+    border: 1px solid rgb(0, 0, 30);
+    font-family: 'HIGHEST';
+    font-size: 25px;
+}
+
+li{
+    list-style: none;
+    font-family: 'Showpop';
+    text-wrap: unset;
+    font-weight: bold;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    background-color: whitesmoke;
+    margin-right: 5%;
+    gap: 20px;
+}
+
+h3{
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'SHOWPOP';
+    font-size: 20px;
+    margin-top: 5%;
+    }
+
+#rappeur{
+    display: flex;
+    width: 50%;
+    height: 50%;
+    justify-content: center;
+    margin-left: 25%;
+    margin-top: 5%;
+}
+
+#maar{
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'SHOWPOP';
+    font-size: 20px;
+}
+
+h3:hover {
+    transform: scale(1.05);
+    opacity: 0.8;
+}

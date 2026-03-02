@@ -191,3 +191,32 @@ h3:hover {
     transform: scale(1.05);
     opacity: 0.8;
 }
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+    #haut{
+        align-items: center;
+    }
+
+    #haut ul li a{
+        font-size: 5px;
+    }
+
+    #haut ul {
+        gap: 10px;
+        font-size: 5px;
+    }
+
+    #image {
+        display: flex;
+        width: 75%;
+    }
+    
+    #description {
+        font-size: 8px;
+    }
+
+    h1{
+        font-size: 10px;
+    }
+}

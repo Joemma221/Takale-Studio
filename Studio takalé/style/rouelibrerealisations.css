@@ -1,0 +1,299 @@
+@font-face {
+    font-family: 'Highest';
+    src: url(/fonts/Highest\ PERSONAL\ USE\ ONLY!.ttf);
+}
+
+@font-face {
+    font-family: 'Jordan';
+    src: url(/fonts/KGTeacherJordan.ttf);
+}
+
+@font-face {
+    font-family: 'Beatbox';
+    src: url(/fonts/beatbox_.ttf);
+}
+
+@font-face {
+    font-family: 'Beatib';
+    src: url(/fonts/beatib__.ttf);
+}
+
+@font-face {
+    font-family: 'Hardbeat';
+    src: url(/fonts/Hardbeat.ttf);
+}
+
+@font-face {
+    font-family: 'TrapMusic';
+    src: url(/fonts/TrapMusic.ttf);
+}
+
+@font-face {
+    font-family: 'WorshipMusic';
+    src: url(/fonts/Worship\ Music.ttf);
+}
+
+@font-face {
+    font-family: 'Showpop';
+    src: url(../../fonts/Showpop.ttf);
+
+}
+body{
+    margin: 0;
+    background-color: rgb(0, 0, 30);
+}
+
+#logo{
+    width: 5%;
+    height: 15%;
+    border-radius: 50%;
+}
+
+#haut{
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    padding: 1%;
+}
+
+img:hover {
+    transform: scale(1.05);
+    opacity: 0.8;
+}
+
+.a{
+    text-decoration: none;
+    color: rgb(0, 0, 30);
+    font-size: 20px;
+}
+
+.a:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(0, 0, 30);
+    text-decoration-style:solid;
+}
+
+.actual {
+    background-color: rgb(0, 0, 30);
+    padding: 10px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+li{
+    list-style: none;
+    text-wrap: unset;
+    font-weight: bold;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    background-color: whitesmoke;
+    margin-right: 5%;
+    gap: 20px;
+}
+
+h1{
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'HIGHEST';
+    font-size: 130px;
+}
+
+h2{
+    text-align: left;
+    color: whitesmoke;
+    font-family: 'Showpop';
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    }
+
+    #clips, #beats{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+#clips{
+    background-color: whitesmoke;
+     margin-bottom: 40px;
+}
+
+#clips h2{
+    color: whitesmoke;
+    font-family: 'Showpop';
+    font-size: 100px;
+    background-color: rgb(0, 0, 30);
+    padding: auto;
+    margin-bottom: 100px;
+}
+
+#clip{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+#clip h1{
+    color: rgb(0, 0, 30);
+    font-family: 'Showpop';
+    font-size: 80px;
+}
+
+#beat{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+}
+
+#beats{
+    background-color: rgb(0, 0, 30);
+}
+
+audio{
+    width: 100%;
+    height: 30px;
+    border-radius: 10%;
+    color: whitesmoke;
+}
+
+#beats h2{
+    color: rgb(0, 0, 30);
+    font-family: 'Showpop';
+    font-size: 100px;
+    background-color:whitesmoke;
+    padding: auto;
+    margin-bottom: 100px;
+    align-items: center;
+}
+
+#beat h1{
+    color: whitesmoke;
+    font-family: 'Showpop';
+    font-size: 60px;
+}
+
+    h3{
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'SHOWPOP';
+    font-size: 20px;
+    margin-top: 5%;
+    }
+
+    img:hover {
+    transform: scale(1.05);
+    opacity: 0.8;
+}
+
+h3:hover {
+    transform: scale(1.05);
+    opacity: 0.8;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    h1 {
+        margin-top: 75px;
+        font-size: 40px;
+    }
+    
+    h2 {
+        font-size: 20px;
+    }
+
+    #haut{
+        align-items: center;
+    }
+
+    #haut ul li .a, .actual {
+        font-size: 5px;
+    }
+
+    #haut ul {
+        gap: 10px;
+        font-size: 5px;
+    }
+
+    h1{
+        margin-top: 20px;
+    }
+
+    h3{
+        font-size: 10px;
+    }
+
+    #clips{
+    background-color: whitesmoke;
+     margin-bottom: 40px;
+     width: 100%;
+}
+
+#clips h2{
+    color: whitesmoke;
+    font-family: 'Showpop';
+    font-size: 50px;
+    background-color: rgb(0, 0, 30);
+    padding: auto;
+    margin-bottom: 50px;
+}
+
+#beats h2{
+    color: rgb(0, 0, 30);
+    font-family: 'Showpop';
+    font-size: 50px;
+    background-color:whitesmoke;
+    padding: auto;
+    margin-bottom: 50px;
+}
+
+#clip{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+#clip h1{
+    color: rgb(0, 0, 30);
+    font-family: 'Showpop';
+    font-size: 20px;
+}
+
+#beat h1{
+    color: whitesmoke;
+    font-family: 'Showpop';
+    font-size: 20px;
+}
+
+#beat{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+
+#beat img{
+    width: 200px;
+    height: auto;
+    border-radius: 10%;
+}
+
+#clip img{
+    width: 200px;
+    height: auto;
+    border-radius: 10%;
+}
+
+#beats{
+    background-color: rgb(0, 0, 30);
+}
+}
